@@ -30,7 +30,7 @@ export const headerMenus = [
     path: '/about',
   },
   {
-    title: 'Our bus ness',
+    title: 'Our busness',
     path: '/careers',
   },
   {
