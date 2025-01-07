@@ -4,6 +4,7 @@ import HomeHeader from './home/HomeHeader.vue'
 
 <template>
   <main>
+    {{ $t('home') }}
     <HomeHeader></HomeHeader>
   </main>
 </template>
