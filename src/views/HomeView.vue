@@ -2,6 +2,7 @@
 import HomeHeader from './home/HomeHeader.vue'
 import UpBox from './home/UpBox.vue'
 import TodayOilPrices from './home/TodayOilPrices.vue'
+import ValueStrategy from './home/ValueStrategy.vue'
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import TodayOilPrices from './home/TodayOilPrices.vue'
   <div class="prices-block">
     <TodayOilPrices></TodayOilPrices>
   </div>
+  <ValueStrategy></ValueStrategy>
 </template>
 <style scoped>
 .prices-block {
