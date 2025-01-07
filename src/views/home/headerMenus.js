@@ -29,4 +29,24 @@ export const headerMenus = [
     title: 'News',
     path: '/about',
   },
+  {
+    title: 'Our bus ness',
+    path: '/careers',
+  },
+  {
+    title: 'Communication',
+    path: '/contact',
+  },
+  {
+    title: 'Our project',
+    path: '/contact',
+  },
+  {
+    title: 'Careers',
+    path: '/contact',
+  },
+  {
+    title: 'contact us',
+    path: '/contact',
+  },
 ]
