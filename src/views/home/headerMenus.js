@@ -4,7 +4,7 @@ export const headerMenus = [
     path: '/',
     children: [
       {
-        title: 'corporate prote',
+        title: 'corporate profile',
         path: '/',
       },
       {
@@ -26,7 +26,7 @@ export const headerMenus = [
     path: '/about',
   },
   {
-    title: 'Our busness',
+    title: 'Our business',
     path: '/careers',
   },
   {
