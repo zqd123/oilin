@@ -3,15 +3,17 @@ import HomeHeader from './home/HomeHeader.vue'
 import UpBox from './home/UpBox.vue'
 import TodayOilPrices from './home/TodayOilPrices.vue'
 import ValueStrategy from './home/ValueStrategy.vue'
+import ServiceScope from './home/ServiceScope.vue'
 </script>
 
 <template>
-  <HomeHeader></HomeHeader>
+  <HomeHeader />
   <UpBox></UpBox>
   <div class="prices-block">
-    <TodayOilPrices></TodayOilPrices>
+    <TodayOilPrices />
   </div>
-  <ValueStrategy></ValueStrategy>
+  <ValueStrategy />
+  <ServiceScope />
 </template>
 <style scoped>
 .prices-block {
