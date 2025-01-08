@@ -12,10 +12,6 @@ export const headerMenus = [
         path: '/',
       },
       {
-        title: 'our team',
-        path: '/',
-      },
-      {
         title: 'our strategy',
         path: '/',
       },

@@ -4,18 +4,29 @@ import UpBox from './home/UpBox.vue'
 import TodayOilPrices from './home/TodayOilPrices.vue'
 import ValueStrategy from './home/ValueStrategy.vue'
 import ServiceScope from './home/ServiceScope.vue'
+import FooterBox from './home/FooterBox.vue'
 </script>
 
 <template>
-  <HomeHeader />
-  <UpBox></UpBox>
-  <div class="prices-block">
-    <TodayOilPrices />
+  <div class="snap-none">
+    <div class="home-block">
+      <HomeHeader class="px-4" />
+      <UpBox></UpBox>
+    </div>
+    <div class="prices-block">
+      <TodayOilPrices />
+    </div>
+    <ValueStrategy />
+    <ServiceScope class="mb-16" />
+    <FooterBox />
   </div>
-  <ValueStrategy />
-  <ServiceScope />
 </template>
 <style scoped>
+.home-block {
+  background: url('../assets/home/bg.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .prices-block {
   display: flex;
   justify-content: center;
@@ -27,7 +38,7 @@ import ServiceScope from './home/ServiceScope.vue'
     #9fece3 74%,
     #1944b4 100%
   );
-  background-size: 100% 2px; /* 宽度100%，高度2px */
+  background-size: 100% 4px; /* 宽度100%，高度2px */
   background-position: center; /* 居中 */
   background-repeat: no-repeat;
 }

@@ -4,7 +4,7 @@
       <div class="title-text">Service scope</div>
       <div class="title-sub">Complete Solutions for Oil & Gas Industry</div>
     </div>
-    <div class="grid grid-cols-4 gap-4">
+    <div class="grid grid-cols-4 gap-4 px-28">
       <ImgOverlay
         v-for="img in serviceImgs"
         :key="img.id"

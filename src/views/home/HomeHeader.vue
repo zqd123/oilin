@@ -1,15 +1,13 @@
 <template>
-  <div
-    class="h-[70px] flex w-full flex-wrap items-center justify-between text-[#333333] text-[16px]"
-  >
-    <div class="logo">
+  <div class="h-[70px] flex w-full flex-wrap items-center text-[#333333] text-[16px]">
+    <div class="logo mr-10">
       <img src="@/assets/logo.png" alt="logo" class="h-[70px]" />
     </div>
     <div class="menu flex gap-10">
       <template v-for="menu in headerMenus" :key="menu.title">
         <el-dropdown v-if="menu?.children?.length > 0">
           <span
-            class="text-base text-[#333333] hover:text-[#1944B4] hover:border-b-2 hover:border-solid hover:border-blue-600 whitespace-nowrap"
+            class="text-base text-[#333333] hover:text-[#1944B4] border-b-2 border-transparent hover:border-solid hover:border-blue-600 whitespace-nowrap"
           >
             {{ menu.title }}
           </span>
@@ -23,15 +21,22 @@
         </el-dropdown>
         <div
           v-else
-          class="cursor-pointer text-[#333333] hover:text-[#1944B4] hover:border-b-2 hover:border-solid hover:border-blue-600 whitespace-nowrap"
+          class="cursor-pointer text-[#333333] hover:text-[#1944B4] border-b-2 border-transparent hover:border-solid hover:border-blue-600 whitespace-nowrap"
         >
           {{ menu.title }}
         </div>
       </template>
     </div>
-    <div class="right flex gap-4">
+    <div class="right flex gap-4 ml-auto">
       <HeaderLanguage />
-      <el-button type="primary" round @click="() => {}">登录</el-button>
+      <el-button
+        type="primary"
+        round
+        @click="() => {}"
+        style="background-color: #1944b4"
+        class="px-4"
+        >Login</el-button
+      >
     </div>
   </div>
 </template>
@@ -39,3 +44,12 @@
 import { headerMenus } from './headerMenus'
 import HeaderLanguage from '@/components/HeaderLanguage.vue'
 </script>
+<style scoped>
+:deep(.el-button--primary) {
+  background-color: #1944b4;
+}
+:deep(.el-button) {
+  padding-left: 23px;
+  padding-right: 23px;
+}
+</style>

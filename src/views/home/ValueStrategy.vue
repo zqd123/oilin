@@ -52,11 +52,11 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 10px 5px;
+  padding: 10px 5px 10px 120px;
   color: #ffffff;
 }
 ul {
-  width: 60%;
+  width: 50%;
 }
 li {
   display: flex;

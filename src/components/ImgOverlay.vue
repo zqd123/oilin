@@ -2,7 +2,9 @@
   <div class="image-with-overlay" :class="`span-${spanWidth}`">
     <div class="img" :style="{ backgroundImage: `url(${imgPath})` }"></div>
     <div class="overlay">
-      <div class="text">{{ imgTitle }}</div>
+      <div class="text flex justify-center">
+        {{ imgTitle }}
+      </div>
     </div>
   </div>
 </template>
@@ -47,5 +49,9 @@ defineProps({
 
 .image-with-overlay:hover .overlay {
   height: 100%; /* 悬停时高度变为100%，即覆盖整个图片 */
+}
+.image-with-overlay:hover .text {
+  font-size: 20px;
+  width: 60%;
 }
 </style>

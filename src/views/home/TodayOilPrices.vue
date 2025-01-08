@@ -1,7 +1,7 @@
 <template>
   <div class="today-box w-2/3 relative">
     <div class="prices-box flex flex-col items-center justify-center gap-3 pt-4">
-      <div class="date absolute -top-2 text-center">2025-01-06</div>
+      <div class="date absolute -top-2 text-center">2025-01-09</div>
       <div class="title text-base font-semibold">Today's oil prices（$/b）</div>
       <div class="prices w-full flex justify-evenly">
         <template v-for="item in todayOilPrices" :key="item.date">
@@ -10,6 +10,7 @@
             :memo="item.memo"
             :priceColor="item.priceColor"
             :arrow="item.arrow"
+            :arrowColor="item.arrowColor"
           ></PricesValue>
         </template>
       </div>
@@ -27,6 +28,7 @@ const todayOilPrices = ref([
     arrow: 'up',
     memo: 'Brent',
     priceColor: '#1944B4',
+    arrowColor: '#FA5151',
   },
   {
     name: '2',
@@ -34,6 +36,7 @@ const todayOilPrices = ref([
     arrow: 'down',
     memo: 'OPEC Reference Basket',
     priceColor: '#B45B19',
+    arrowColor: '#3BB92D',
   },
   {
     name: '3',
@@ -41,6 +44,7 @@ const todayOilPrices = ref([
     arrow: 'up',
     memo: 'WTl',
     priceColor: '#19A3B4',
+    arrowColor: '#FA5151',
   },
 ])
 </script>
