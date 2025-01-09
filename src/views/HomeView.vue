@@ -24,7 +24,7 @@ import FooterBox from './home/FooterBox.vue'
 <style scoped>
 .home-block {
   background: url('../assets/home/bg.png') no-repeat;
-  background-size: cover;
+  background-size: 80% auto;
   background-position: center;
 }
 .prices-block {
