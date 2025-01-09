@@ -44,11 +44,12 @@ defineProps({
   transition: all 0.5s ease; /* 平滑显示和隐藏 */
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding-inline: 16px;
 }
 
 .image-with-overlay:hover .overlay {
   height: 100%; /* 悬停时高度变为100%，即覆盖整个图片 */
+  justify-content: center;
 }
 .image-with-overlay:hover .text {
   font-size: 20px;

@@ -5,7 +5,7 @@
     </div>
     <div class="menu flex gap-10">
       <template v-for="menu in headerMenus" :key="menu.title">
-        <el-dropdown v-if="menu?.children?.length > 0">
+        <el-dropdown v-if="menu?.children?.length > 0" placement="bottom-start">
           <span
             class="text-base text-[#333333] hover:text-[#1944B4] border-b-2 border-transparent hover:border-solid hover:border-blue-600 whitespace-nowrap"
           >
