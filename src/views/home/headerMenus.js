@@ -1,19 +1,19 @@
 export const headerMenus = [
   {
     title: 'About us',
-    path: '/',
+    path: '/developing',
     children: [
       {
         title: 'corporate profile',
-        path: '/',
+        path: '/developing',
       },
       {
         title: 'corporate culture',
-        path: '/',
+        path: '/developing',
       },
       {
         title: 'our strategy',
-        path: '/',
+        path: '/developing',
       },
       {
         title: 'our partners',

@@ -13,9 +13,9 @@
           </span>
           <template #dropdown>
             <el-dropdown-menu>
-              <el-dropdown-item v-for="child in menu.children" :key="child.title">{{
-                child.title
-              }}</el-dropdown-item>
+              <el-dropdown-item v-for="child in menu.children" :key="child.title">
+                <RouterLink :to="child.path">{{ child.title }}</RouterLink></el-dropdown-item
+              >
             </el-dropdown-menu>
           </template>
         </el-dropdown>

@@ -1,16 +1,13 @@
 <script setup>
-import HomeHeader from './home/HomeHeader.vue'
 import UpBox from './home/UpBox.vue'
 import TodayOilPrices from './home/TodayOilPrices.vue'
 import ValueStrategy from './home/ValueStrategy.vue'
 import ServiceScope from './home/ServiceScope.vue'
-import FooterBox from './home/FooterBox.vue'
 </script>
 
 <template>
   <div class="snap-none">
     <div class="home-block">
-      <HomeHeader class="px-4" />
       <UpBox></UpBox>
     </div>
     <div class="prices-block">
@@ -18,7 +15,6 @@ import FooterBox from './home/FooterBox.vue'
     </div>
     <ValueStrategy />
     <ServiceScope class="mb-16" />
-    <FooterBox />
   </div>
 </template>
 <style scoped>
