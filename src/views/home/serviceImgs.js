@@ -1,13 +1,13 @@
 import service1 from '@/assets/home/service-1.jpg'
 import service2 from '@/assets/home/service-2.png'
-import service3 from '@/assets/home/service-3.jpg'
-import service4 from '@/assets/home/service-4.jpg'
+import service3 from '@/assets/home/service-3.png'
+import service4 from '@/assets/home/service-4.png'
 import service5 from '@/assets/home/service-5.jpg'
-import service6 from '@/assets/home/service-6.jpg'
+import service6 from '@/assets/home/service-6.png'
 import service7 from '@/assets/home/service-7.png'
-import service8 from '@/assets/home/service-8.jpg'
-import service9 from '@/assets/home/service-9.jpg'
-import service10 from '@/assets/home/service-10.jpg'
+import service8 from '@/assets/home/service-8.png'
+import service9 from '@/assets/home/service-9.png'
+import service10 from '@/assets/home/service-10.png'
 export const serviceImgs = [
   {
     id: 1,
