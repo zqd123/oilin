@@ -14,6 +14,7 @@ export const serviceImgs = [
     imgPath: service1,
     imgTitle: 'Geological Technical Services',
     spanWidth: 1,
+    routerPath: '/ReservoirGeology',
   },
   {
     id: 2,

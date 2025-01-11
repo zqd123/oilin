@@ -11,6 +11,7 @@
         :imgPath="img.imgPath"
         :imgTitle="img.imgTitle"
         :spanWidth="img.spanWidth"
+        :routerPath="img.routerPath"
       />
     </div>
   </div>

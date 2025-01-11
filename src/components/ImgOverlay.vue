@@ -1,6 +1,6 @@
 <template>
   <div class="image-with-overlay" :class="`span-${spanWidth}`">
-    <RouterLink :to="`/ReservoirGeology`">
+    <RouterLink :to="`${routerPath}`">
       <div class="img" :style="{ backgroundImage: `url(${imgPath})` }"></div>
       <div class="overlay">
         <div class="text flex justify-center">
@@ -15,6 +15,10 @@ defineProps({
   imgPath: String,
   imgTitle: String,
   spanWidth: Number,
+  routerPath: {
+    type: String,
+    default: '/',
+  },
 })
 </script>
 <style scoped>

@@ -1,7 +1,9 @@
 <template>
   <div class="h-[70px] flex w-full flex-wrap items-center text-[#333333] text-[16px]">
     <div class="logo mr-10">
-      <img src="@/assets/logo.png" alt="logo" class="h-[70px]" />
+      <RouterLink :to="`/`">
+        <img src="@/assets/logo.png" alt="logo" class="h-[70px]" />
+      </RouterLink>
     </div>
     <div class="menu flex gap-10">
       <template v-for="menu in headerMenus" :key="menu.title">
