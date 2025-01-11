@@ -1,11 +1,13 @@
 <template>
   <div class="image-with-overlay" :class="`span-${spanWidth}`">
-    <div class="img" :style="{ backgroundImage: `url(${imgPath})` }"></div>
-    <div class="overlay">
-      <div class="text flex justify-center">
-        {{ imgTitle }}
+    <RouterLink :to="`/ReservoirGeology`">
+      <div class="img" :style="{ backgroundImage: `url(${imgPath})` }"></div>
+      <div class="overlay">
+        <div class="text flex justify-center">
+          {{ imgTitle }}
+        </div>
       </div>
-    </div>
+    </RouterLink>
   </div>
 </template>
 <script setup>

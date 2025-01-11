@@ -15,9 +15,9 @@ const router = createRouter({
       component: () => import('../views/SiteDeveloping.vue'),
     },
     {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue'),
+      path: '/ReservoirGeology',
+      name: 'ReservoirGeology',
+      component: () => import('../views/second-page/ReservoirGeology.vue'),
     },
   ],
 })
