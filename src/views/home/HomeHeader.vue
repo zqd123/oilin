@@ -29,12 +29,7 @@
     </div>
     <div class="right flex gap-4 ml-auto">
       <HeaderLanguage />
-      <el-button
-        type="primary"
-        round
-        @click="() => {}"
-        style="background-color: #1944b4"
-        class="px-4"
+      <el-button type="primary" round @click="() => {}" style="background-color: #1944b4"
         >Login</el-button
       >
     </div>
@@ -47,9 +42,7 @@ import HeaderLanguage from '@/components/HeaderLanguage.vue'
 <style scoped>
 :deep(.el-button--primary) {
   background-color: #1944b4;
-}
-:deep(.el-button) {
-  padding-left: 23px;
-  padding-right: 23px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 </style>

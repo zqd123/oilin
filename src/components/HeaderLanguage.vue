@@ -6,7 +6,7 @@
       </el-button>
       <template #dropdown>
         <el-dropdown-menu>
-          <el-dropdown-item @click="handleClick('Eng')">Eng</el-dropdown-item>
+          <el-dropdown-item @click="handleClick('English')">English</el-dropdown-item>
           <el-dropdown-item @click="handleClick('中文')">中文</el-dropdown-item>
         </el-dropdown-menu>
       </template>
@@ -17,7 +17,7 @@
 import { ArrowDown } from '@element-plus/icons-vue'
 import { ref } from 'vue'
 
-const currentLanguage = ref('Eng')
+const currentLanguage = ref('English')
 const handleClick = (v) => {
   console.log('🚀 ~ handleClick ~ v:', v)
   currentLanguage.value = v
