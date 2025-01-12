@@ -77,5 +77,6 @@ export const serviceImgs = [
     imgPath: service10,
     imgTitle: 'Investment and New Business',
     spanWidth: 2,
+    routerPath: '/InvestmentNewBusiness',
   },
 ]

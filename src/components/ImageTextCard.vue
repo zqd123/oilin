@@ -1,6 +1,6 @@
 <template>
   <div class="advantage-item">
-    <div class="icon mb-[20px]">
+    <div class="icon mb-[20px]" v-if="advantage.iconPath">
       <el-image class="h-[40px]" :src="advantage.iconPath" />
     </div>
     <div class="text-content text-center text-[16px]">{{ advantage.textContent }}</div>

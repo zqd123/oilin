@@ -59,6 +59,11 @@ const router = createRouter({
       name: 'DigitalTechnologyServices',
       component: () => import('../views/second-page/DigitalTechnologyServices.vue'),
     },
+    {
+      path: '/InvestmentNewBusiness',
+      name: 'InvestmentNewBusiness',
+      component: () => import('../views/second-page/InvestmentNewBusiness.vue'),
+    },
   ],
 })
 

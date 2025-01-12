@@ -331,4 +331,17 @@ Leveraging on the world's leading oilfield expertise accumulated over the years,
       },
     ],
   },
+  investmentNewBusiness: {
+    title: 'Investment and New Business',
+    contentText:
+      'A model of efficient and harmonious development for both human and the environment.To create direct value for clients, and contribute to social progress',
+    imgPath: serviceImgs[9].imgPath,
+    advantages: [
+      {
+        index: 1,
+        textContent:
+          'As an oilfield technology and trading company, we provide operation services as its products, and follows the standard of “Operation First” when delivering services to clients. Grand Qilin also provides a wide range of investment opportunities in developing oil field, field services and crude oil blending and trading.  We look forward to cooperate with all industry partners from all around the world.',
+      },
+    ],
+  },
 }
