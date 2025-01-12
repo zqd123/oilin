@@ -35,6 +35,7 @@ export const serviceImgs = [
     imgPath: service4,
     imgTitle: 'Reservoir management',
     spanWidth: 1,
+    routerPath: '/ReservoirManagement',
   },
   {
     id: 5,

@@ -12,6 +12,8 @@ import stimulationIcon2 from '@/assets/images/stimulation/icon2.png'
 import stimulationIcon3 from '@/assets/images/stimulation/icon3.png'
 import stimulationIcon4 from '@/assets/images/stimulation/icon4.png'
 import stimulationIcon5 from '@/assets/images/stimulation/icon5.png'
+import reservoirManagementIcon1 from '@/assets/images/reservoir-management/icon1.png'
+import reservoirManagementIcon2 from '@/assets/images/reservoir-management/icon2.png'
 export const secondData = {
   reservoirGeology: {
     title: serviceImgs[0].imgTitle,
@@ -111,6 +113,26 @@ export const secondData = {
         iconPath: stimulationIcon5,
         textContent:
           'Combination of stimulation related engineering technology and geological technology, supported with digital technology, financial resources, human resources services etc.',
+      },
+    ],
+  },
+  reservoirManagement: {
+    title: 'Reservoir management',
+    contentText:
+      'Grand Qilin Oil has rich experience in the allocation of resources to optimize hydrocarbon recovery from a reservoir while minimizing capital investments and operating expenses',
+    imgPath: serviceImgs[3].imgPath,
+    advantages: [
+      {
+        index: 1,
+        iconPath: reservoirManagementIcon1,
+        textContent:
+          'successful reservoir management requires understanding the structure of the reservoir, the distribution of fluids within the reservoir, drilling and maintaining wells which can produce fluids from the reservoir, transport and processing of produced fluids, refining and marketing the fluids, safely abandoning the reservoir when it can no longer produce, and mitigating the environmental impact of operations throughout the life cycle of the reservoir.',
+      },
+      {
+        index: 2,
+        iconPath: reservoirManagementIcon2,
+        textContent:
+          'Grand Qilin Oil utilize some of the cutting-edge developments in reservoir characterization technology within the industry comprise high-resolution imaging techniques, data analysis tools, advanced modeling algorithms, and leveraging big data analytics, AI, and ML technologies for informed strategic decisions.',
       },
     ],
   },

@@ -29,6 +29,11 @@ const router = createRouter({
       name: 'Stimulation',
       component: () => import('../views/second-page/StimulationPage.vue'),
     },
+    {
+      path: '/ReservoirManagement',
+      name: 'ReservoirManagement',
+      component: () => import('../views/second-page/ReservoirManagement.vue'),
+    },
   ],
 })
 
