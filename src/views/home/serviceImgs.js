@@ -56,6 +56,7 @@ export const serviceImgs = [
     imgPath: service7,
     imgTitle: 'Oil blending and trading',
     spanWidth: 1,
+    routerPath: '/OilBlendingTrading',
   },
   {
     id: 8,

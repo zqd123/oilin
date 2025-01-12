@@ -25,6 +25,9 @@ import chemicalTechnologyProductsIcon3 from '@/assets/images/chemical-technology
 import chemicalTechnologyProductsIcon4 from '@/assets/images/chemical-technology-products/icon4.png'
 import chemicalTechnologyProductsIcon5 from '@/assets/images/chemical-technology-products/icon5.png'
 import chemicalTechnologyProductsIcon6 from '@/assets/images/chemical-technology-products/icon6.png'
+import oilBlendingTradingIcon1 from '@/assets/images/oil-blending-trading/icon1.png'
+import oilBlendingTradingIcon2 from '@/assets/images/oil-blending-trading/icon2.png'
+import oilBlendingTradingIcon3 from '@/assets/images/oil-blending-trading/icon3.png'
 export const secondData = {
   reservoirGeology: {
     title: serviceImgs[0].imgTitle,
@@ -218,6 +221,32 @@ Grand Qilin Oil provides full range of integrated and specialized completion sol
         index: 6,
         iconPath: chemicalTechnologyProductsIcon6,
         textContent: 'General Bulk Chemical Product',
+      },
+    ],
+  },
+  oilBlendingTrading: {
+    title: 'Oil Blending and Trading',
+    contentText:
+      'Blending oil involves mixing two or more different types of oils to achieve a desired balance of fatty acids, stability, and functional properties.',
+    imgPath: serviceImgs[6].imgPath,
+    advantages: [
+      {
+        index: 1,
+        iconPath: oilBlendingTradingIcon1,
+        textContent:
+          'Grand Qilin Oil are resourcing and allocating worldwide crude oil to various port for blending and trading crude oil, so as',
+      },
+      {
+        index: 2,
+        iconPath: oilBlendingTradingIcon2,
+        textContent:
+          'to optimize commercial value, to upgrade or reduce oil consumption to meet specifications, and to facilitate oil movement.',
+      },
+      {
+        index: 3,
+        iconPath: oilBlendingTradingIcon3,
+        textContent:
+          'Selecting the optimal combination of components to produce the final finished product is one of the most critical economic issues for both traders and refiners. Blending is much more complicated than a simple mixing of components.',
       },
     ],
   },

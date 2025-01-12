@@ -44,6 +44,11 @@ const router = createRouter({
       name: 'ChemicalTechnologyProducts',
       component: () => import('../views/second-page/ChemicalTechnologyProducts.vue'),
     },
+    {
+      path: '/OilBlendingTrading',
+      name: 'OilBlendingTrading',
+      component: () => import('../views/second-page/OilBlendingTrading.vue'),
+    },
   ],
 })
 
