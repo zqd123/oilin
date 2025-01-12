@@ -70,6 +70,7 @@ export const serviceImgs = [
     imgPath: service9,
     imgTitle: 'Digital Technology Services',
     spanWidth: 2,
+    routerPath: '/DigitalTechnologyServices',
   },
   {
     id: 10,

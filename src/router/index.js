@@ -54,6 +54,11 @@ const router = createRouter({
       name: 'AssetsLeasingServices',
       component: () => import('../views/second-page/AssetsLeasingServices.vue'),
     },
+    {
+      path: '/DigitalTechnologyServices',
+      name: 'DigitalTechnologyServices',
+      component: () => import('../views/second-page/DigitalTechnologyServices.vue'),
+    },
   ],
 })
 

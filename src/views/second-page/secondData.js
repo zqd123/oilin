@@ -32,6 +32,13 @@ import assetsLeasingServicesIcon1 from '@/assets/images/assets-leasing-services/
 import assetsLeasingServicesIcon2 from '@/assets/images/assets-leasing-services/icon2.png'
 import assetsLeasingServicesIcon3 from '@/assets/images/assets-leasing-services/icon3.png'
 import assetsLeasingServicesIcon4 from '@/assets/images/assets-leasing-services/icon4.png'
+import digitalTechnologyServicesIcon1 from '@/assets/images/digital-technology-services/icon1.png'
+import digitalTechnologyServicesIcon2 from '@/assets/images/digital-technology-services/icon2.png'
+import digitalTechnologyServicesIcon3 from '@/assets/images/digital-technology-services/icon3.png'
+import digitalTechnologyServicesIcon4 from '@/assets/images/digital-technology-services/icon4.png'
+import digitalTechnologyServicesIcon5 from '@/assets/images/digital-technology-services/icon5.png'
+import digitalTechnologyServicesIcon6 from '@/assets/images/digital-technology-services/icon6.png'
+
 export const secondData = {
   reservoirGeology: {
     title: serviceImgs[0].imgTitle,
@@ -283,6 +290,44 @@ Grand Qilin Oil provides full range of integrated and specialized completion sol
         iconPath: assetsLeasingServicesIcon4,
         textContent:
           'By efficient asset sharing platform services, it helps customers to share and effectively use their assets globally and maximize the value of their assets.',
+      },
+    ],
+  },
+  digitalTechnologyServices: {
+    title: 'Digital Technology Services',
+    contentText: `Grand Qilin Oil is committed to providing customers with digital intelligence transformation solutions, serving various application scenarios, and cooperating with various technology companies to provide efficient services for oilfield operation management.
+Leveraging on the world's leading oilfield expertise accumulated over the years, combined with in-depth research in recent years on oil and gas industry production management informatization, big data applications, intelligent security, equipment intelligent monitoring, new energy and other technologies, to provide customers with all-round and full scenarios related to oil and gas fields Digital services;',   imgPath: serviceImgs[8].imgPath`,
+    imgPath: serviceImgs[8].imgPath,
+    advantages: [
+      {
+        index: 1,
+        iconPath: digitalTechnologyServicesIcon1,
+        textContent: 'Oil and gas production intelligent management and control platform',
+      },
+      {
+        index: 2,
+        iconPath: digitalTechnologyServicesIcon2,
+        textContent: 'Intelligent security and emergency management',
+      },
+      {
+        index: 3,
+        iconPath: digitalTechnologyServicesIcon3,
+        textContent: 'Equipment and facilities digital technology services',
+      },
+      {
+        index: 4,
+        iconPath: digitalTechnologyServicesIcon4,
+        textContent: 'Multimedia services',
+      },
+      {
+        index: 5,
+        iconPath: digitalTechnologyServicesIcon5,
+        textContent: 'Intellectualization of Petroleum Engineering Technology',
+      },
+      {
+        index: 6,
+        iconPath: digitalTechnologyServicesIcon6,
+        textContent: 'Oilfield development knowledge sharing platform service',
       },
     ],
   },
