@@ -49,6 +49,7 @@ export const serviceImgs = [
     imgPath: service6,
     imgTitle: 'Chemical Technology and Products',
     spanWidth: 1,
+    routerPath: '/ChemicalTechnologyProducts',
   },
   {
     id: 7,

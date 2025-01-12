@@ -39,6 +39,11 @@ const router = createRouter({
       name: 'ProductionFieldMaintenance',
       component: () => import('../views/second-page/ProductionFieldMaintenance.vue'),
     },
+    {
+      path: '/ChemicalTechnologyProducts',
+      name: 'ChemicalTechnologyProducts',
+      component: () => import('../views/second-page/ChemicalTechnologyProducts.vue'),
+    },
   ],
 })
 

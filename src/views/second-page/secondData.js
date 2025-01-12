@@ -19,6 +19,12 @@ import productionFieldMaintenanceIcon2 from '@/assets/images/production-field-ma
 import productionFieldMaintenanceIcon3 from '@/assets/images/production-field-maintenance/icon3.png'
 import productionFieldMaintenanceIcon4 from '@/assets/images/production-field-maintenance/icon4.png'
 import productionFieldMaintenanceIcon5 from '@/assets/images/production-field-maintenance/icon5.png'
+import chemicalTechnologyProductsIcon1 from '@/assets/images/chemical-technology-products/icon1.png'
+import chemicalTechnologyProductsIcon2 from '@/assets/images/chemical-technology-products/icon2.png'
+import chemicalTechnologyProductsIcon3 from '@/assets/images/chemical-technology-products/icon3.png'
+import chemicalTechnologyProductsIcon4 from '@/assets/images/chemical-technology-products/icon4.png'
+import chemicalTechnologyProductsIcon5 from '@/assets/images/chemical-technology-products/icon5.png'
+import chemicalTechnologyProductsIcon6 from '@/assets/images/chemical-technology-products/icon6.png'
 export const secondData = {
   reservoirGeology: {
     title: serviceImgs[0].imgTitle,
@@ -174,6 +180,44 @@ Grand Qilin Oil provides full range of integrated and specialized completion sol
         index: 5,
         iconPath: productionFieldMaintenanceIcon5,
         textContent: 'Artificail lift',
+      },
+    ],
+  },
+  chemicalTechnologyProducts: {
+    title: 'Chemical Technology and Products',
+    contentText:
+      'The chemical technology and product of Grand Qilin Oil is targeted to solve all difficulties in the whole process of oil and gas production, to help clients improve the safety and speed of drilling, to enrich stimulation technology, to increase the oil recovery rate, to help clients reduce the cost of oil and gas gathering, to improve oil and gas gathering efficiency.',
+    imgPath: serviceImgs[5].imgPath,
+    advantages: [
+      {
+        index: 1,
+        iconPath: chemicalTechnologyProductsIcon1,
+        textContent: 'Drilling Fluid Treatment',
+      },
+      {
+        index: 2,
+        iconPath: chemicalTechnologyProductsIcon2,
+        textContent: 'Cementing Admixture',
+      },
+      {
+        index: 3,
+        iconPath: chemicalTechnologyProductsIcon3,
+        textContent: 'Stimulation Chemical Product',
+      },
+      {
+        index: 4,
+        iconPath: chemicalTechnologyProductsIcon4,
+        textContent: 'Oil Production Chemical Product',
+      },
+      {
+        index: 5,
+        iconPath: chemicalTechnologyProductsIcon5,
+        textContent: 'Oil and Gas Gathering Chemical Product',
+      },
+      {
+        index: 6,
+        iconPath: chemicalTechnologyProductsIcon6,
+        textContent: 'General Bulk Chemical Product',
       },
     ],
   },
