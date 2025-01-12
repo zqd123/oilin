@@ -34,6 +34,11 @@ const router = createRouter({
       name: 'ReservoirManagement',
       component: () => import('../views/second-page/ReservoirManagement.vue'),
     },
+    {
+      path: '/ProductionFieldMaintenance',
+      name: 'ProductionFieldMaintenance',
+      component: () => import('../views/second-page/ProductionFieldMaintenance.vue'),
+    },
   ],
 })
 

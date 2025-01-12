@@ -42,6 +42,7 @@ export const serviceImgs = [
     imgPath: service5,
     imgTitle: 'Production and Field Maintenance',
     spanWidth: 1,
+    routerPath: '/ProductionFieldMaintenance',
   },
   {
     id: 6,

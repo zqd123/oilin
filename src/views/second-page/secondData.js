@@ -14,6 +14,11 @@ import stimulationIcon4 from '@/assets/images/stimulation/icon4.png'
 import stimulationIcon5 from '@/assets/images/stimulation/icon5.png'
 import reservoirManagementIcon1 from '@/assets/images/reservoir-management/icon1.png'
 import reservoirManagementIcon2 from '@/assets/images/reservoir-management/icon2.png'
+import productionFieldMaintenanceIcon1 from '@/assets/images/production-field-maintenance/icon1.png'
+import productionFieldMaintenanceIcon2 from '@/assets/images/production-field-maintenance/icon2.png'
+import productionFieldMaintenanceIcon3 from '@/assets/images/production-field-maintenance/icon3.png'
+import productionFieldMaintenanceIcon4 from '@/assets/images/production-field-maintenance/icon4.png'
+import productionFieldMaintenanceIcon5 from '@/assets/images/production-field-maintenance/icon5.png'
 export const secondData = {
   reservoirGeology: {
     title: serviceImgs[0].imgTitle,
@@ -133,6 +138,42 @@ export const secondData = {
         iconPath: reservoirManagementIcon2,
         textContent:
           'Grand Qilin Oil utilize some of the cutting-edge developments in reservoir characterization technology within the industry comprise high-resolution imaging techniques, data analysis tools, advanced modeling algorithms, and leveraging big data analytics, AI, and ML technologies for informed strategic decisions.',
+      },
+    ],
+  },
+  ProductionFieldMaintenance: {
+    title: 'Production and Field maintenance',
+    contentText: `Integrated well completion design capacity；
+Market main completion technology services supplier: Leading the upgraded completion technologies powered by full range of completion tools and perpetual innovation of intelligent completion tools；
+Global technical service team：Professional on-site technical service engineers and international project management staffs；
+Experienced in gas/carbon storage & intelligent completion services.
+Grand Qilin Oil provides full range of integrated and specialized completion solutions centered on completion tools, and focus on the gas & carbon storge, intelligent completion.`,
+    imgPath: serviceImgs[4].imgPath,
+    advantages: [
+      {
+        index: 1,
+        iconPath: productionFieldMaintenanceIcon1,
+        textContent: 'Completion technologies',
+      },
+      {
+        index: 2,
+        iconPath: productionFieldMaintenanceIcon2,
+        textContent: 'Intelligent completion',
+      },
+      {
+        index: 3,
+        iconPath: productionFieldMaintenanceIcon3,
+        textContent: 'Completion tools',
+      },
+      {
+        index: 4,
+        iconPath: productionFieldMaintenanceIcon4,
+        textContent: 'Sand control',
+      },
+      {
+        index: 5,
+        iconPath: productionFieldMaintenanceIcon5,
+        textContent: 'Artificail lift',
       },
     ],
   },
