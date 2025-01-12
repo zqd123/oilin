@@ -7,6 +7,11 @@ import reservoirGeologyIcon5 from '@/assets/images/reservoir-geology/icon5.png'
 import drillingTechnologyIcon1 from '@/assets/images/drilling-technology/icon1.png'
 import drillingTechnologyIcon2 from '@/assets/images/drilling-technology/icon2.png'
 import drillingTechnologyIcon3 from '@/assets/images/drilling-technology/icon3.png'
+import stimulationIcon1 from '@/assets/images/stimulation/icon1.png'
+import stimulationIcon2 from '@/assets/images/stimulation/icon2.png'
+import stimulationIcon3 from '@/assets/images/stimulation/icon3.png'
+import stimulationIcon4 from '@/assets/images/stimulation/icon4.png'
+import stimulationIcon5 from '@/assets/images/stimulation/icon5.png'
 export const secondData = {
   reservoirGeology: {
     title: serviceImgs[0].imgTitle,
@@ -69,6 +74,43 @@ export const secondData = {
         iconPath: drillingTechnologyIcon3,
         textContent:
           'It has advanced biosynthetic base, high-performance oil base / desulphonated water base, solid free brine drilling and completion fluid, intelligent mud technology and mud station operation and maintenance',
+      },
+    ],
+  },
+  stimulation: {
+    title: 'Stimulation',
+    contentText:
+      'Our company is an integrated technical solution designer and service provider covering stimulation technology, pumping, CT technology and wellbore restoration technology etc.',
+    imgPath: serviceImgs[2].imgPath,
+    advantages: [
+      {
+        index: 1,
+        iconPath: stimulationIcon1,
+        textContent:
+          'Focusing on the research of unconventional oil and gas stimulation technology, supported with characteristic suspension technology, temporary plugging and water control technology etc.',
+      },
+      {
+        index: 2,
+        iconPath: stimulationIcon2,
+        textContent: 'We have rich shale gas and tight gas fracturing services experiences.',
+      },
+      {
+        index: 3,
+        iconPath: stimulationIcon3,
+        textContent:
+          'Leading new coiled tubing technology in China, intelligent service providers that combine coiled tubing with cable and optical fiber.',
+      },
+      {
+        index: 4,
+        iconPath: stimulationIcon4,
+        textContent:
+          'Leading new coiled tubing technology in China, intelligent service providers that combine coiled tubing with cable and optical fiber.',
+      },
+      {
+        index: 5,
+        iconPath: stimulationIcon5,
+        textContent:
+          'Combination of stimulation related engineering technology and geological technology, supported with digital technology, financial resources, human resources services etc.',
       },
     ],
   },

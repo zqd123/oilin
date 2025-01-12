@@ -28,6 +28,7 @@ export const serviceImgs = [
     imgPath: service3,
     imgTitle: 'Stimulation',
     spanWidth: 1,
+    routerPath: '/Stimulation',
   },
   {
     id: 4,

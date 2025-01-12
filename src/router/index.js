@@ -24,6 +24,11 @@ const router = createRouter({
       name: 'DrillingTechnology',
       component: () => import('../views/second-page/DrillingTechnology.vue'),
     },
+    {
+      path: '/Stimulation',
+      name: 'Stimulation',
+      component: () => import('../views/second-page/StimulationPage.vue'),
+    },
   ],
 })
 
