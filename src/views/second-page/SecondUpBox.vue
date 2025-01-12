@@ -6,7 +6,7 @@
     </div>
     <div class="flex-1 flex justify-center">
       <div
-        class="img w-[540px] h-[280px] bg-no-repeat"
+        class="img w-[540px] h-[280px] bg-no-repeat bg-center bg-cover"
         :style="{ backgroundImage: `url(${imgPath})` }"
       ></div>
     </div>

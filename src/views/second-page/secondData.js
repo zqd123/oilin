@@ -1,45 +1,74 @@
 import { serviceImgs } from '@/views/home/serviceImgs'
-import icon1 from '@/assets/images/reservoir-geology/icon1.png'
-import icon2 from '@/assets/images/reservoir-geology/icon2.png'
-import icon3 from '@/assets/images/reservoir-geology/icon3.png'
-import icon4 from '@/assets/images/reservoir-geology/icon4.png'
-import icon5 from '@/assets/images/reservoir-geology/icon5.png'
+import reservoirGeologyIcon1 from '@/assets/images/reservoir-geology/icon1.png'
+import reservoirGeologyIcon2 from '@/assets/images/reservoir-geology/icon2.png'
+import reservoirGeologyIcon3 from '@/assets/images/reservoir-geology/icon3.png'
+import reservoirGeologyIcon4 from '@/assets/images/reservoir-geology/icon4.png'
+import reservoirGeologyIcon5 from '@/assets/images/reservoir-geology/icon5.png'
+import drillingTechnologyIcon1 from '@/assets/images/drilling-technology/icon1.png'
+import drillingTechnologyIcon2 from '@/assets/images/drilling-technology/icon2.png'
+import drillingTechnologyIcon3 from '@/assets/images/drilling-technology/icon3.png'
 export const secondData = {
   reservoirGeology: {
-    title: 'Reservoir Geology Technical Services',
+    title: serviceImgs[0].imgTitle,
     contentText:
       'Combining comprehensive reservoir geological research services, advanced formation monitoring visualization technology and full-process engineering services, we provide clients with sweet spot tracking services and precise engineering technology solutions for the entire lifecycle of reservoirs to improve sweet spot hitting rates for economic efficiency enhancement of oilfield development.',
     imgPath: serviceImgs[0].imgPath,
     advantages: [
       {
         index: 1,
-        iconPath: icon1,
+        iconPath: reservoirGeologyIcon1,
         textContent:
           'Advanced formation monitoring visualization technology and reservoir digital technology, providing accurate identification of sweet spot.',
       },
       {
         index: 2,
-        iconPath: icon2,
+        iconPath: reservoirGeologyIcon2,
         textContent:
           'The whole service chain consisting of reservoir and geology research, drilling, completion, stimulation and oil recovery, provides conditions for the combination of geology and engineering, and makes resources allocation efficiently.',
       },
       {
         index: 3,
-        iconPath: icon3,
+        iconPath: reservoirGeologyIcon3,
         textContent:
           'An open ecological cooperation platform attracting advanced technologies and high-quality partners worldwide.',
       },
       {
         index: 4,
-        iconPath: icon4,
+        iconPath: reservoirGeologyIcon4,
         textContent:
           'Diversified cooperation modes, including conventional services, general contracting service and risk-taking general contract service, etc.',
       },
       {
         index: 5,
-        iconPath: icon5,
+        iconPath: reservoirGeologyIcon5,
         textContent:
           'Rich experiences in oil and gas reservoir research in worldwide, covering oil and gas fields in China, Iraq, Iran and etc, involving various types of reservoirs such as conventional sandstone, carbonate, tight sandstone, coal seam, shale, etc.',
+      },
+    ],
+  },
+  drillingTechnology: {
+    title: serviceImgs[1].imgTitle,
+    contentText:
+      'We provide services covering directional wells, drilling and completion fluids, cementing and oilfield environmental protection ，It has a series of key drilling technologies, characterized by measurement while drilling and steering technology, downhole tool integration, environmental protection drilling and completion fluid system.',
+    imgPath: serviceImgs[1].imgPath,
+    advantages: [
+      {
+        index: 1,
+        iconPath: drillingTechnologyIcon1,
+        textContent:
+          'It has advanced LWD/MWD tools and rotary guide tools, perfect side drilling supporting technology, and rich experience in drilling construction of various wells and well types. It can provide advanced technology services such as directional, rotary geological guidance, side drilling, downhole connectivity, double branch wells, and integrated drilling tools such as comprehensive acceleration',
+      },
+      {
+        index: 2,
+        iconPath: drillingTechnologyIcon2,
+        textContent:
+          'It can provide real-time optimization of drilling parameters, remote visualization, operability and intelligence',
+      },
+      {
+        index: 3,
+        iconPath: drillingTechnologyIcon3,
+        textContent:
+          'It has advanced biosynthetic base, high-performance oil base / desulphonated water base, solid free brine drilling and completion fluid, intelligent mud technology and mud station operation and maintenance',
       },
     ],
   },

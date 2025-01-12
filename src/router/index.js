@@ -19,6 +19,11 @@ const router = createRouter({
       name: 'ReservoirGeology',
       component: () => import('../views/second-page/ReservoirGeology.vue'),
     },
+    {
+      path: '/DrillingTechnology',
+      name: 'DrillingTechnology',
+      component: () => import('../views/second-page/DrillingTechnology.vue'),
+    },
   ],
 })
 

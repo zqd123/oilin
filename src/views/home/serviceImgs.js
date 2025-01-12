@@ -21,6 +21,7 @@ export const serviceImgs = [
     imgPath: service2,
     imgTitle: 'Drilling Technology',
     spanWidth: 1,
+    routerPath: '/DrillingTechnology',
   },
   {
     id: 3,
