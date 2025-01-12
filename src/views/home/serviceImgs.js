@@ -63,6 +63,7 @@ export const serviceImgs = [
     imgPath: service8,
     imgTitle: 'Assets Leasing Services',
     spanWidth: 1,
+    routerPath: '/AssetsLeasingServices',
   },
   {
     id: 9,

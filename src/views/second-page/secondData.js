@@ -28,6 +28,10 @@ import chemicalTechnologyProductsIcon6 from '@/assets/images/chemical-technology
 import oilBlendingTradingIcon1 from '@/assets/images/oil-blending-trading/icon1.png'
 import oilBlendingTradingIcon2 from '@/assets/images/oil-blending-trading/icon2.png'
 import oilBlendingTradingIcon3 from '@/assets/images/oil-blending-trading/icon3.png'
+import assetsLeasingServicesIcon1 from '@/assets/images/assets-leasing-services/icon1.png'
+import assetsLeasingServicesIcon2 from '@/assets/images/assets-leasing-services/icon2.png'
+import assetsLeasingServicesIcon3 from '@/assets/images/assets-leasing-services/icon3.png'
+import assetsLeasingServicesIcon4 from '@/assets/images/assets-leasing-services/icon4.png'
 export const secondData = {
   reservoirGeology: {
     title: serviceImgs[0].imgTitle,
@@ -247,6 +251,38 @@ Grand Qilin Oil provides full range of integrated and specialized completion sol
         iconPath: oilBlendingTradingIcon3,
         textContent:
           'Selecting the optimal combination of components to produce the final finished product is one of the most critical economic issues for both traders and refiners. Blending is much more complicated than a simple mixing of components.',
+      },
+    ],
+  },
+  assetsLeasingServices: {
+    title: 'Assets Leasing Services',
+    contentText:
+      'Assets Leasing Service：To provide clients with a full range of oilfield equipment and assets leasing services, help clients with asset-light operation.',
+    imgPath: serviceImgs[7].imgPath,
+    advantages: [
+      {
+        index: 1,
+        iconPath: assetsLeasingServicesIcon1,
+        textContent:
+          'Provide oil and gas field processing facilities, power plants, well stations, pipeline operation and maintenance, production equipment and facilities construction and leasing services；',
+      },
+      {
+        index: 2,
+        iconPath: assetsLeasingServicesIcon2,
+        textContent:
+          'By powerful means including asset mobilization, operation and maintenance and information, to provide customers with efficient asset management services；',
+      },
+      {
+        index: 3,
+        iconPath: assetsLeasingServicesIcon3,
+        textContent:
+          'Provide oil and gas field processing facilities, power plants, well stations, pipeline operation and maintenance, production equipment and facilities construction and leasing services；',
+      },
+      {
+        index: 4,
+        iconPath: assetsLeasingServicesIcon4,
+        textContent:
+          'By efficient asset sharing platform services, it helps customers to share and effectively use their assets globally and maximize the value of their assets.',
       },
     ],
   },
