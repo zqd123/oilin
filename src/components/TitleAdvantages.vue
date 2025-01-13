@@ -2,10 +2,11 @@
   <div class="title-advantages">{{ title }}</div>
 </template>
 <script setup>
+import i18n from '@/locales'
 defineProps({
   title: {
     type: String,
-    default: 'Advantages',
+    default: i18n.global.t('advantages'),
   },
 })
 </script>

@@ -1,48 +1,49 @@
+import i18n from '@/locales'
 export const headerMenus = [
   {
-    title: 'About us',
+    title: i18n.global.t('about-us'),
     path: '/developing',
     children: [
       {
-        title: 'corporate profile',
+        title: i18n.global.t('corporate-profile'),
         path: '/developing',
       },
       {
-        title: 'corporate culture',
+        title: i18n.global.t('corporate-culture'),
         path: '/developing',
       },
       {
-        title: 'our strategy',
+        title: i18n.global.t('our-strategy'),
         path: '/developing',
       },
       {
-        title: 'our partners',
+        title: i18n.global.t('our-partners'),
         path: '/',
       },
     ],
   },
   {
-    title: 'News',
+    title: i18n.global.t('news'),
     path: '/about',
   },
   {
-    title: 'Our business',
+    title: i18n.global.t('our-business'),
     path: '/careers',
   },
   {
-    title: 'Communication',
+    title: i18n.global.t('communication'),
     path: '/contact',
   },
   {
-    title: 'Our project',
+    title: i18n.global.t('our-project'),
     path: '/contact',
   },
   {
-    title: 'Careers',
+    title: i18n.global.t('careers'),
     path: '/contact',
   },
   {
-    title: 'contact us',
+    title: i18n.global.t('contact-us'),
     path: '/contact',
   },
 ]

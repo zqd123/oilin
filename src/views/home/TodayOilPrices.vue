@@ -2,7 +2,7 @@
   <div class="today-box w-2/3 relative">
     <div class="prices-box flex flex-col items-center justify-center gap-3 pt-4">
       <div class="date absolute -top-2 text-center">{{ formatted }}</div>
-      <div class="title text-base font-semibold">Today's oil prices（$/b）</div>
+      <div class="title text-base font-semibold">{{ $t('todays-oil-prices-b') }}</div>
       <div class="prices w-full flex justify-evenly">
         <template v-for="item in todayOilPrices" :key="item.date">
           <PricesValue
@@ -18,6 +18,7 @@
   </div>
 </template>
 <script setup>
+import i18n from '@/locales'
 import PricesValue from './PricesValue.vue'
 import { ref } from 'vue'
 import { useDateFormat, useNow } from '@vueuse/core'
@@ -28,7 +29,7 @@ const todayOilPrices = ref([
     name: '1',
     price: 80.56,
     arrow: 'up',
-    memo: 'Brent',
+    memo: i18n.global.t('brent'),
     priceColor: '#1944B4',
     arrowColor: '#FA5151',
   },
@@ -36,7 +37,7 @@ const todayOilPrices = ref([
     name: '2',
     price: 100.08,
     arrow: 'down',
-    memo: 'OPEC Reference Basket',
+    memo: i18n.global.t('opec-reference-basket'),
     priceColor: '#B45B19',
     arrowColor: '#3BB92D',
   },
@@ -44,7 +45,7 @@ const todayOilPrices = ref([
     name: '3',
     price: 90.25,
     arrow: 'up',
-    memo: 'WTl',
+    memo: i18n.global.t('wtl'),
     priceColor: '#19A3B4',
     arrowColor: '#FA5151',
   },

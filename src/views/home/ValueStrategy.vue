@@ -1,39 +1,35 @@
 <template>
   <div>
-    <div class="title text-4xl flex justify-center py-12">Value & Strategy</div>
+    <div class="title text-4xl flex justify-center py-12">
+      {{ $t('value') }} & {{ $t('and-strategy') }}
+    </div>
     <div class="box-block">
       <div class="content">
         <div class="values">
-          <div class="text-2xl pb-2">Our Values</div>
+          <div class="text-2xl pb-2">{{ $t('our-values') }}</div>
           <ul>
             <li>
-              Integrity: We uphold the highest standards of honesty and transparency in all our
-              dealings.
+              {{ $t('iwut') }}
             </li>
             <li>
-              Excellence: We strive for excellence in every aspect of our work, ensuring top-quality
-              service delivery.
+              {{ $t('ewsf') }}
             </li>
             <li>
-              Responsibility: We take responsibility for our impact on the environment and society,
-              and actively seek ways to contribute positively.
+              {{ $t('rwtr') }}
             </li>
           </ul>
         </div>
         <div class="strategy">
-          <div class="text-2xl pb-2">Strategic Goals</div>
+          <div class="text-2xl pb-2">{{ $t('strategic-goals') }}</div>
           <ul>
             <li>
-              Innovation: Continuously adopt and integrate advanced technologies to enhance our
-              service offerings and operational efficiency.
+              {{ $t('icaa') }}
             </li>
             <li>
-              Sustainability: Implement practices that ensure minimal environmental impact and
-              promote long-term ecological balance.
+              {{ $t('sipt') }}
             </li>
             <li>
-              Partnerships: Forge strong partnerships with key stakeholders in the energy sector to
-              foster mutual growth and success.
+              {{ $t('pfsp') }}
             </li>
           </ul>
         </div>
