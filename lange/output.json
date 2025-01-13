@@ -1,487 +1,502 @@
 [
-    {
-        "key": "contact-us",
-        "EnglistValue": "contact us",
-        "ChinaValue": ""
-    },
-    {
-        "key": "careers",
-        "EnglistValue": "Careers",
-        "ChinaValue": ""
-    },
-    {
-        "key": "our-project",
-        "EnglistValue": "Our project",
-        "ChinaValue": ""
-    },
-    {
-        "key": "communication",
-        "EnglistValue": "Communication",
-        "ChinaValue": ""
-    },
-    {
-        "key": "our-business",
-        "EnglistValue": "Our business",
-        "ChinaValue": ""
-    },
-    {
-        "key": "news",
-        "EnglistValue": "News",
-        "ChinaValue": ""
-    },
-    {
-        "key": "our-partners",
-        "EnglistValue": "our partners",
-        "ChinaValue": ""
-    },
-    {
-        "key": "our-strategy",
-        "EnglistValue": "our strategy",
-        "ChinaValue": ""
-    },
-    {
-        "key": "corporate-culture",
-        "EnglistValue": "corporate culture",
-        "ChinaValue": ""
-    },
-    {
-        "key": "corporate-profile",
-        "EnglistValue": "corporate profile",
-        "ChinaValue": ""
-    },
-    {
-        "key": "about-us",
-        "EnglistValue": "About us",
-        "ChinaValue": ""
-    },
-    {
-        "key": "investment-and-new-business",
-        "EnglistValue": "Investment and New Business",
-        "ChinaValue": ""
-    },
-    {
-        "key": "digital-technology-services",
-        "EnglistValue": "Digital Technology Services",
-        "ChinaValue": ""
-    },
-    {
-        "key": "assets-leasing-services",
-        "EnglistValue": "Assets Leasing Services",
-        "ChinaValue": ""
-    },
-    {
-        "key": "oil-blending-and-trading",
-        "EnglistValue": "Oil blending and trading",
-        "ChinaValue": ""
-    },
-    {
-        "key": "chemical-technology-and-products",
-        "EnglistValue": "Chemical Technology and Products",
-        "ChinaValue": ""
-    },
-    {
-        "key": "production-and-field-maintenance",
-        "EnglistValue": "Production and Field Maintenance",
-        "ChinaValue": ""
-    },
-    {
-        "key": "reservoir-management",
-        "EnglistValue": "Reservoir management",
-        "ChinaValue": ""
-    },
-    {
-        "key": "stimulation",
-        "EnglistValue": "Stimulation",
-        "ChinaValue": ""
-    },
-    {
-        "key": "drilling-technology",
-        "EnglistValue": "Drilling Technology",
-        "ChinaValue": ""
-    },
-    {
-        "key": "geological-technical-services",
-        "EnglistValue": "Geological Technical Services",
-        "ChinaValue": ""
-    },
-    {
-        "key": "aaot",
-        "EnglistValue": "As an oilfield technology and trading company, we provide operation services as its products, and follows the standard of “Operation First” when delivering services to clients. Grand Qilin also provides a wide range of investment opportunities in developing oil field, field services and crude oil blending and trading.  We look forward to cooperate with all industry partners from all around the world.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "amoe",
-        "EnglistValue": "A model of efficient and harmonious development for both human and the environment.To create direct value for clients, and contribute to social progress",
-        "ChinaValue": ""
-    },
-    {
-        "key": "odks",
-        "EnglistValue": "Oilfield development knowledge sharing platform service",
-        "ChinaValue": ""
-    },
-    {
-        "key": "iope",
-        "EnglistValue": "Intellectualization of Petroleum Engineering Technology",
-        "ChinaValue": ""
-    },
-    {
-        "key": "multimedia-services",
-        "EnglistValue": "Multimedia services",
-        "ChinaValue": ""
-    },
-    {
-        "key": "equipment-and-facilities-digital-technology-services",
-        "EnglistValue": "Equipment and facilities digital technology services",
-        "ChinaValue": ""
-    },
-    {
-        "key": "intelligent-security-and-emergency-management",
-        "EnglistValue": "Intelligent security and emergency management",
-        "ChinaValue": ""
-    },
-    {
-        "key": "oil-and-gas-production-intelligent-management-and-control-platform",
-        "EnglistValue": "Oil and gas production intelligent management and control platform",
-        "ChinaValue": ""
-    },
-    {
-        "key": "gqoi",
-        "EnglistValue": "Grand Qilin Oil is committed to providing customers with digital intelligence transformation solutions, serving various application scenarios, and cooperating with various technology companies to provide efficient services for oilfield operation management. Leveraging on the world's leading oilfield expertise accumulated over the years, combined with in-depth research in recent years on oil and gas industry production management informatization, big data applications, intelligent security, equipment intelligent monitoring, new energy and other technologies, to provide customers with all-round and full scenarios related to oil and gas fields Digital services;',   imgPath: serviceImgs[8].imgPath",
-        "ChinaValue": ""
-    },
-    {
-        "key": "beas",
-        "EnglistValue": "By efficient asset sharing platform services, it helps customers to share and effectively use their assets globally and maximize the value of their assets.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "poag",
-        "EnglistValue": "Provide oil and gas field processing facilities, power plants, well stations, pipeline operation and maintenance, production equipment and facilities construction and leasing services；",
-        "ChinaValue": ""
-    },
-    {
-        "key": "bpmi",
-        "EnglistValue": "By powerful means including asset mobilization, operation and maintenance and information, to provide customers with efficient asset management services；",
-        "ChinaValue": ""
-    },
-    {
-        "key": "poagf",
-        "EnglistValue": "Provide oil and gas field processing facilities, power plants, well stations, pipeline operation and maintenance, production equipment and facilities construction and leasing services；",
-        "ChinaValue": ""
-    },
-    {
-        "key": "als",
-        "EnglistValue": "Assets Leasing Service：To provide clients with a full range of oilfield equipment and assets leasing services, help clients with asset-light operation.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "stoc",
-        "EnglistValue": "Selecting the optimal combination of components to produce the final finished product is one of the most critical economic issues for both traders and refiners. Blending is much more complicated than a simple mixing of components.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "tocv",
-        "EnglistValue": "to optimize commercial value, to upgrade or reduce oil consumption to meet specifications, and to facilitate oil movement.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "gqoa",
-        "EnglistValue": "Grand Qilin Oil are resourcing and allocating worldwide crude oil to various port for blending and trading crude oil, so as",
-        "ChinaValue": ""
-    },
-    {
-        "key": "boim",
-        "EnglistValue": "Blending oil involves mixing two or more different types of oils to achieve a desired balance of fatty acids, stability, and functional properties.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "oil-blending-and-trading-0",
-        "EnglistValue": "Oil Blending and Trading",
-        "ChinaValue": ""
-    },
-    {
-        "key": "general-bulk-chemical-product",
-        "EnglistValue": "General Bulk Chemical Product",
-        "ChinaValue": ""
-    },
-    {
-        "key": "oil-and-gas-gathering-chemical-product",
-        "EnglistValue": "Oil and Gas Gathering Chemical Product",
-        "ChinaValue": ""
-    },
-    {
-        "key": "oil-production-chemical-product",
-        "EnglistValue": "Oil Production Chemical Product",
-        "ChinaValue": ""
-    },
-    {
-        "key": "stimulation-chemical-product",
-        "EnglistValue": "Stimulation Chemical Product",
-        "ChinaValue": ""
-    },
-    {
-        "key": "cementing-admixture",
-        "EnglistValue": "Cementing Admixture",
-        "ChinaValue": ""
-    },
-    {
-        "key": "drilling-fluid-treatment",
-        "EnglistValue": "Drilling Fluid Treatment",
-        "ChinaValue": ""
-    },
-    {
-        "key": "tcta",
-        "EnglistValue": "The chemical technology and product of Grand Qilin Oil is targeted to solve all difficulties in the whole process of oil and gas production, to help clients improve the safety and speed of drilling, to enrich stimulation technology, to increase the oil recovery rate, to help clients reduce the cost of oil and gas gathering, to improve oil and gas gathering efficiency.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "artificail-lift",
-        "EnglistValue": "Artificail lift",
-        "ChinaValue": ""
-    },
-    {
-        "key": "sand-control",
-        "EnglistValue": "Sand control",
-        "ChinaValue": ""
-    },
-    {
-        "key": "completion-tools",
-        "EnglistValue": "Completion tools",
-        "ChinaValue": ""
-    },
-    {
-        "key": "intelligent-completion",
-        "EnglistValue": "Intelligent completion",
-        "ChinaValue": ""
-    },
-    {
-        "key": "completion-technologies",
-        "EnglistValue": "Completion technologies",
-        "ChinaValue": ""
-    },
-    {
-        "key": "production-and-field-maintenance-0",
-        "EnglistValue": "Production and Field maintenance",
-        "ChinaValue": ""
-    },
-    {
-        "key": "gqou",
-        "EnglistValue": "Grand Qilin Oil utilize some of the cutting-edge developments in reservoir characterization technology within the industry comprise high-resolution imaging techniques, data analysis tools, advanced modeling algorithms, and leveraging big data analytics, AI, and ML technologies for informed strategic decisions.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "srmr",
-        "EnglistValue": "successful reservoir management requires understanding the structure of the reservoir, the distribution of fluids within the reservoir, drilling and maintaining wells which can produce fluids from the reservoir, transport and processing of produced fluids, refining and marketing the fluids, safely abandoning the reservoir when it can no longer produce, and mitigating the environmental impact of operations throughout the life cycle of the reservoir.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "gqoh",
-        "EnglistValue": "Grand Qilin Oil has rich experience in the allocation of resources to optimize hydrocarbon recovery from a reservoir while minimizing capital investments and operating expenses",
-        "ChinaValue": ""
-    },
-    {
-        "key": "cosr",
-        "EnglistValue": "Combination of stimulation related engineering technology and geological technology, supported with digital technology, financial resources, human resources services etc.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "lnct",
-        "EnglistValue": "Leading new coiled tubing technology in China, intelligent service providers that combine coiled tubing with cable and optical fiber.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "lnctt",
-        "EnglistValue": "Leading new coiled tubing technology in China, intelligent service providers that combine coiled tubing with cable and optical fiber.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "whrs",
-        "EnglistValue": "We have rich shale gas and tight gas fracturing services experiences.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "fotr",
-        "EnglistValue": "Focusing on the research of unconventional oil and gas stimulation technology, supported with characteristic suspension technology, temporary plugging and water control technology etc.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "ocia",
-        "EnglistValue": "Our company is an integrated technical solution designer and service provider covering stimulation technology, pumping, CT technology and wellbore restoration technology etc.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "ihab",
-        "EnglistValue": "It has advanced biosynthetic base, high-performance oil base / desulphonated water base, solid free brine drilling and completion fluid, intelligent mud technology and mud station operation and maintenance",
-        "ChinaValue": ""
-    },
-    {
-        "key": "icpr",
-        "EnglistValue": "It can provide real-time optimization of drilling parameters, remote visualization, operability and intelligence",
-        "ChinaValue": ""
-    },
-    {
-        "key": "ihal",
-        "EnglistValue": "It has advanced LWD/MWD tools and rotary guide tools, perfect side drilling supporting technology, and rich experience in drilling construction of various wells and well types. It can provide advanced technology services such as directional, rotary geological guidance, side drilling, downhole connectivity, double branch wells, and integrated drilling tools such as comprehensive acceleration",
-        "ChinaValue": ""
-    },
-    {
-        "key": "wpsc",
-        "EnglistValue": "We provide services covering directional wells, drilling and completion fluids, cementing and oilfield environmental protection ，It has a series of key drilling technologies, characterized by measurement while drilling and steering technology, downhole tool integration, environmental protection drilling and completion fluid system.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "reio",
-        "EnglistValue": "Rich experiences in oil and gas reservoir research in worldwide, covering oil and gas fields in China, Iraq, Iran and etc, involving various types of reservoirs such as conventional sandstone, carbonate, tight sandstone, coal seam, shale, etc.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "dcmi",
-        "EnglistValue": "Diversified cooperation modes, including conventional services, general contracting service and risk-taking general contract service, etc.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "aoec",
-        "EnglistValue": "An open ecological cooperation platform attracting advanced technologies and high-quality partners worldwide.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "twsc",
-        "EnglistValue": "The whole service chain consisting of reservoir and geology research, drilling, completion, stimulation and oil recovery, provides conditions for the combination of geology and engineering, and makes resources allocation efficiently.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "afmv",
-        "EnglistValue": "Advanced formation monitoring visualization technology and reservoir digital technology, providing accurate identification of sweet spot.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "ccrg",
-        "EnglistValue": "Combining comprehensive reservoir geological research services, advanced formation monitoring visualization technology and full-process engineering services, we provide clients with sweet spot tracking services and precise engineering technology solutions for the entire lifecycle of reservoirs to improve sweet spot hitting rates for economic efficiency enhancement of oilfield development.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "grand-qilin-oil",
-        "EnglistValue": "Grand Qilin Oil",
-        "ChinaValue": ""
-    },
-    {
-        "key": "your-trusted-energy-partner",
-        "EnglistValue": "Your Trusted Energy Partner",
-        "ChinaValue": ""
-    },
-    {
-        "key": "ociap",
-        "EnglistValue": "Our company is a pioneering company specializing in oil field development, reservoir management , oil field service and oil trading, delivering sustainable energy solutions through cutting-edge technology and industry expertise.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "wtl",
-        "EnglistValue": "WTl",
-        "ChinaValue": ""
-    },
-    {
-        "key": "opec-reference-basket",
-        "EnglistValue": "OPEC Reference Basket",
-        "ChinaValue": ""
-    },
-    {
-        "key": "brent",
-        "EnglistValue": "Brent",
-        "ChinaValue": ""
-    },
-    {
-        "key": "todays-oil-prices-b",
-        "EnglistValue": "Today's oil prices（$/b）",
-        "ChinaValue": ""
-    },
-    {
-        "key": "value",
-        "EnglistValue": "Value",
-        "ChinaValue": ""
-    },
-    {
-        "key": "and-strategy",
-        "EnglistValue": "Strategy",
-        "ChinaValue": ""
-    },
-    {
-        "key": "our-values",
-        "EnglistValue": "Our Values",
-        "ChinaValue": ""
-    },
-    {
-        "key": "iwut",
-        "EnglistValue": "Integrity: We uphold the highest standards of honesty and transparency in all our dealings.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "ewsf",
-        "EnglistValue": "Excellence: We strive for excellence in every aspect of our work, ensuring top-quality service delivery.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "rwtr",
-        "EnglistValue": "Responsibility: We take responsibility for our impact on the environment and society, and actively seek ways to contribute positively.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "strategic-goals",
-        "EnglistValue": "Strategic Goals",
-        "ChinaValue": ""
-    },
-    {
-        "key": "icaa",
-        "EnglistValue": "Innovation: Continuously adopt and integrate advanced technologies to enhance our service offerings and operational efficiency.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "sipt",
-        "EnglistValue": "Sustainability: Implement practices that ensure minimal environmental impact and promote long-term ecological balance.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "pfsp",
-        "EnglistValue": "Partnerships: Forge strong partnerships with key stakeholders in the energy sector to foster mutual growth and success.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "contact",
-        "EnglistValue": "Contact",
-        "ChinaValue": ""
-    },
-    {
-        "key": "suppliers",
-        "EnglistValue": "Suppliers",
-        "ChinaValue": ""
-    },
-    {
-        "key": "general-terms-and-conditions-of-use",
-        "EnglistValue": "General Terms and Conditions of Use",
-        "ChinaValue": ""
-    },
-    {
-        "key": "personal-data-charter-cookies-and-tracers",
-        "EnglistValue": "Personal data charter, cookies and tracers",
-        "ChinaValue": ""
-    },
-    {
-        "key": "accessibility-partially-compliant",
-        "EnglistValue": "Accessibility : partially compliant",
-        "ChinaValue": ""
-    },
-    {
-        "key": "sitemap",
-        "EnglistValue": "Sitemap",
-        "ChinaValue": ""
-    },
-    {
-        "key": "iwcd",
-        "EnglistValue": "Integrated well completion design capacity； Market main completion technology services supplier: Leading the upgraded completion technologies powered by full range of completion tools and perpetual innovation of intelligent completion tools； Global technical service team：Professional on-site technical service engineers and international project management staffs； Experienced in gas/carbon storage & intelligent completion services. Grand Qilin Oil provides full range of integrated and specialized completion solutions centered on completion tools, and focus on the gas & carbon storge, intelligent completion.",
-        "ChinaValue": ""
-    },
-    {
-        "key": "advantages",
-        "EnglistValue": "Advantages",
-        "ChinaValue": ""
-    }
+  {
+    "key": "contact-us",
+    "EnglishValue": "Contact us",
+    "ChinaValue": ""
+  },
+  {
+    "key": "careers",
+    "EnglishValue": "Careers",
+    "ChinaValue": ""
+  },
+  {
+    "key": "our-project",
+    "EnglishValue": "Our project",
+    "ChinaValue": ""
+  },
+  {
+    "key": "communication",
+    "EnglishValue": "Communication",
+    "ChinaValue": ""
+  },
+  {
+    "key": "our-business",
+    "EnglishValue": "Our business",
+    "ChinaValue": ""
+  },
+  {
+    "key": "news",
+    "EnglishValue": "News",
+    "ChinaValue": ""
+  },
+  {
+    "key": "our-partners",
+    "EnglishValue": "our partners",
+    "ChinaValue": ""
+  },
+  {
+    "key": "our-strategy",
+    "EnglishValue": "our strategy",
+    "ChinaValue": ""
+  },
+  {
+    "key": "corporate-culture",
+    "EnglishValue": "corporate culture",
+    "ChinaValue": ""
+  },
+  {
+    "key": "corporate-profile",
+    "EnglishValue": "corporate profile",
+    "ChinaValue": ""
+  },
+  {
+    "key": "about-us",
+    "EnglishValue": "About us",
+    "ChinaValue": ""
+  },
+  {
+    "key": "investment-and-new-business",
+    "EnglishValue": "Investment and New Business",
+    "ChinaValue": ""
+  },
+  {
+    "key": "digital-technology-services",
+    "EnglishValue": "Digital Technology Services",
+    "ChinaValue": ""
+  },
+  {
+    "key": "assets-leasing-services",
+    "EnglishValue": "Assets Leasing Services",
+    "ChinaValue": ""
+  },
+  {
+    "key": "oil-blending-and-trading",
+    "EnglishValue": "Oil blending and trading",
+    "ChinaValue": ""
+  },
+  {
+    "key": "chemical-technology-and-products",
+    "EnglishValue": "Chemical Technology and Products",
+    "ChinaValue": ""
+  },
+  {
+    "key": "production-and-field-maintenance",
+    "EnglishValue": "Production and Field Maintenance",
+    "ChinaValue": ""
+  },
+  {
+    "key": "reservoir-management",
+    "EnglishValue": "Reservoir management",
+    "ChinaValue": ""
+  },
+  {
+    "key": "stimulation",
+    "EnglishValue": "Stimulation",
+    "ChinaValue": ""
+  },
+  {
+    "key": "drilling-technology",
+    "EnglishValue": "Drilling Technology",
+    "ChinaValue": ""
+  },
+  {
+    "key": "geological-technical-services",
+    "EnglishValue": "Geological Technical Services",
+    "ChinaValue": ""
+  },
+  {
+    "key": "aaot",
+    "EnglishValue": "As an oilfield technology and trading company, we provide operation services as its products, and follows the standard of “Operation First” when delivering services to clients. Grand Qilin also provides a wide range of investment opportunities in developing oil field, field services and crude oil blending and trading.  We look forward to cooperate with all industry partners from all around the world.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "amoe",
+    "EnglishValue": "A model of efficient and harmonious development for both human and the environment.To create direct value for clients, and contribute to social progress",
+    "ChinaValue": ""
+  },
+  {
+    "key": "odks",
+    "EnglishValue": "Oilfield development knowledge sharing platform service",
+    "ChinaValue": ""
+  },
+  {
+    "key": "iope",
+    "EnglishValue": "Intellectualization of Petroleum Engineering Technology",
+    "ChinaValue": ""
+  },
+  {
+    "key": "multimedia-services",
+    "EnglishValue": "Multimedia services",
+    "ChinaValue": ""
+  },
+  {
+    "key": "equipment-and-facilities-digital-technology-services",
+    "EnglishValue": "Equipment and facilities digital technology services",
+    "ChinaValue": ""
+  },
+  {
+    "key": "intelligent-security-and-emergency-management",
+    "EnglishValue": "Intelligent security and emergency management",
+    "ChinaValue": ""
+  },
+  {
+    "key": "oil-and-gas-production-intelligent-management-and-control-platform",
+    "EnglishValue": "Oil and gas production intelligent management and control platform",
+    "ChinaValue": ""
+  },
+  {
+    "key": "gqoi",
+    "EnglishValue": "Grand Qilin Oil is committed to providing customers with digital intelligence transformation solutions, serving various application scenarios, and cooperating with various technology companies to provide efficient services for oilfield operation management. Leveraging on the world's leading oilfield expertise accumulated over the years, combined with in-depth research in recent years on oil and gas industry production management informatization, big data applications, intelligent security, equipment intelligent monitoring, new energy and other technologies, to provide customers with all-round and full scenarios related to oil and gas fields Digital services;',   imgPath: serviceImgs[8].imgPath",
+    "ChinaValue": ""
+  },
+  {
+    "key": "beas",
+    "EnglishValue": "By efficient asset sharing platform services, it helps customers to share and effectively use their assets globally and maximize the value of their assets.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "poag",
+    "EnglishValue": "Provide oil and gas field processing facilities, power plants, well stations, pipeline operation and maintenance, production equipment and facilities construction and leasing services；",
+    "ChinaValue": ""
+  },
+  {
+    "key": "bpmi",
+    "EnglishValue": "By powerful means including asset mobilization, operation and maintenance and information, to provide customers with efficient asset management services；",
+    "ChinaValue": ""
+  },
+  {
+    "key": "poagf",
+    "EnglishValue": "Provide oil and gas field processing facilities, power plants, well stations, pipeline operation and maintenance, production equipment and facilities construction and leasing services；",
+    "ChinaValue": ""
+  },
+  {
+    "key": "als",
+    "EnglishValue": "Assets Leasing Service：To provide clients with a full range of oilfield equipment and assets leasing services, help clients with asset-light operation.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "stoc",
+    "EnglishValue": "Selecting the optimal combination of components to produce the final finished product is one of the most critical economic issues for both traders and refiners. Blending is much more complicated than a simple mixing of components.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "tocv",
+    "EnglishValue": "to optimize commercial value, to upgrade or reduce oil consumption to meet specifications, and to facilitate oil movement.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "gqoa",
+    "EnglishValue": "Grand Qilin Oil are resourcing and allocating worldwide crude oil to various port for blending and trading crude oil, so as",
+    "ChinaValue": ""
+  },
+  {
+    "key": "boim",
+    "EnglishValue": "Blending oil involves mixing two or more different types of oils to achieve a desired balance of fatty acids, stability, and functional properties.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "oil-blending-and-trading-0",
+    "EnglishValue": "Oil Blending and Trading",
+    "ChinaValue": ""
+  },
+  {
+    "key": "general-bulk-chemical-product",
+    "EnglishValue": "General Bulk Chemical Product",
+    "ChinaValue": ""
+  },
+  {
+    "key": "oil-and-gas-gathering-chemical-product",
+    "EnglishValue": "Oil and Gas Gathering Chemical Product",
+    "ChinaValue": ""
+  },
+  {
+    "key": "oil-production-chemical-product",
+    "EnglishValue": "Oil Production Chemical Product",
+    "ChinaValue": ""
+  },
+  {
+    "key": "stimulation-chemical-product",
+    "EnglishValue": "Stimulation Chemical Product",
+    "ChinaValue": ""
+  },
+  {
+    "key": "cementing-admixture",
+    "EnglishValue": "Cementing Admixture",
+    "ChinaValue": ""
+  },
+  {
+    "key": "drilling-fluid-treatment",
+    "EnglishValue": "Drilling Fluid Treatment",
+    "ChinaValue": ""
+  },
+  {
+    "key": "tcta",
+    "EnglishValue": "The chemical technology and product of Grand Qilin Oil is targeted to solve all difficulties in the whole process of oil and gas production, to help clients improve the safety and speed of drilling, to enrich stimulation technology, to increase the oil recovery rate, to help clients reduce the cost of oil and gas gathering, to improve oil and gas gathering efficiency.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "artificail-lift",
+    "EnglishValue": "Artificail lift",
+    "ChinaValue": ""
+  },
+  {
+    "key": "sand-control",
+    "EnglishValue": "Sand control",
+    "ChinaValue": ""
+  },
+  {
+    "key": "completion-tools",
+    "EnglishValue": "Completion tools",
+    "ChinaValue": ""
+  },
+  {
+    "key": "intelligent-completion",
+    "EnglishValue": "Intelligent completion",
+    "ChinaValue": ""
+  },
+  {
+    "key": "completion-technologies",
+    "EnglishValue": "Completion technologies",
+    "ChinaValue": ""
+  },
+  {
+    "key": "production-and-field-maintenance-0",
+    "EnglishValue": "Production and Field maintenance",
+    "ChinaValue": ""
+  },
+  {
+    "key": "gqou",
+    "EnglishValue": "Grand Qilin Oil utilize some of the cutting-edge developments in reservoir characterization technology within the industry comprise high-resolution imaging techniques, data analysis tools, advanced modeling algorithms, and leveraging big data analytics, AI, and ML technologies for informed strategic decisions.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "srmr",
+    "EnglishValue": "successful reservoir management requires understanding the structure of the reservoir, the distribution of fluids within the reservoir, drilling and maintaining wells which can produce fluids from the reservoir, transport and processing of produced fluids, refining and marketing the fluids, safely abandoning the reservoir when it can no longer produce, and mitigating the environmental impact of operations throughout the life cycle of the reservoir.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "gqoh",
+    "EnglishValue": "Grand Qilin Oil has rich experience in the allocation of resources to optimize hydrocarbon recovery from a reservoir while minimizing capital investments and operating expenses",
+    "ChinaValue": ""
+  },
+  {
+    "key": "cosr",
+    "EnglishValue": "Combination of stimulation related engineering technology and geological technology, supported with digital technology, financial resources, human resources services etc.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "lnct",
+    "EnglishValue": "Leading new coiled tubing technology in China, intelligent service providers that combine coiled tubing with cable and optical fiber.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "lnctt",
+    "EnglishValue": "Leading new coiled tubing technology in China, intelligent service providers that combine coiled tubing with cable and optical fiber.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "whrs",
+    "EnglishValue": "We have rich shale gas and tight gas fracturing services experiences.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "fotr",
+    "EnglishValue": "Focusing on the research of unconventional oil and gas stimulation technology, supported with characteristic suspension technology, temporary plugging and water control technology etc.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "ocia",
+    "EnglishValue": "Our company is an integrated technical solution designer and service provider covering stimulation technology, pumping, CT technology and wellbore restoration technology etc.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "ihab",
+    "EnglishValue": "It has advanced biosynthetic base, high-performance oil base / desulphonated water base, solid free brine drilling and completion fluid, intelligent mud technology and mud station operation and maintenance",
+    "ChinaValue": ""
+  },
+  {
+    "key": "icpr",
+    "EnglishValue": "It can provide real-time optimization of drilling parameters, remote visualization, operability and intelligence",
+    "ChinaValue": ""
+  },
+  {
+    "key": "ihal",
+    "EnglishValue": "It has advanced LWD/MWD tools and rotary guide tools, perfect side drilling supporting technology, and rich experience in drilling construction of various wells and well types. It can provide advanced technology services such as directional, rotary geological guidance, side drilling, downhole connectivity, double branch wells, and integrated drilling tools such as comprehensive acceleration",
+    "ChinaValue": ""
+  },
+  {
+    "key": "wpsc",
+    "EnglishValue": "We provide services covering directional wells, drilling and completion fluids, cementing and oilfield environmental protection ，It has a series of key drilling technologies, characterized by measurement while drilling and steering technology, downhole tool integration, environmental protection drilling and completion fluid system.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "reio",
+    "EnglishValue": "Rich experiences in oil and gas reservoir research in worldwide, covering oil and gas fields in China, Iraq, Iran and etc, involving various types of reservoirs such as conventional sandstone, carbonate, tight sandstone, coal seam, shale, etc.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "dcmi",
+    "EnglishValue": "Diversified cooperation modes, including conventional services, general contracting service and risk-taking general contract service, etc.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "aoec",
+    "EnglishValue": "An open ecological cooperation platform attracting advanced technologies and high-quality partners worldwide.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "twsc",
+    "EnglishValue": "The whole service chain consisting of reservoir and geology research, drilling, completion, stimulation and oil recovery, provides conditions for the combination of geology and engineering, and makes resources allocation efficiently.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "afmv",
+    "EnglishValue": "Advanced formation monitoring visualization technology and reservoir digital technology, providing accurate identification of sweet spot.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "ccrg",
+    "EnglishValue": "Combining comprehensive reservoir geological research services, advanced formation monitoring visualization technology and full-process engineering services, we provide clients with sweet spot tracking services and precise engineering technology solutions for the entire lifecycle of reservoirs to improve sweet spot hitting rates for economic efficiency enhancement of oilfield development.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "grand-qilin-oil",
+    "EnglishValue": "Grand Qilin Oil",
+    "ChinaValue": ""
+  },
+  {
+    "key": "your-trusted-energy-partner",
+    "EnglishValue": "Your Trusted Energy Partner",
+    "ChinaValue": ""
+  },
+  {
+    "key": "ociap",
+    "EnglishValue": "Our company is a pioneering company specializing in oil field development, reservoir management , oil field service and oil trading, delivering sustainable energy solutions through cutting-edge technology and industry expertise.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "wtl",
+    "EnglishValue": "WTl",
+    "ChinaValue": ""
+  },
+  {
+    "key": "opec-reference-basket",
+    "EnglishValue": "OPEC Reference Basket",
+    "ChinaValue": ""
+  },
+  {
+    "key": "brent",
+    "EnglishValue": "Brent",
+    "ChinaValue": ""
+  },
+  {
+    "key": "todays-oil-prices-b",
+    "EnglishValue": "Today's oil prices（$/b）",
+    "ChinaValue": ""
+  },
+  {
+    "key": "value",
+    "EnglishValue": "Value",
+    "ChinaValue": ""
+  },
+  {
+    "key": "and-strategy",
+    "EnglishValue": "Strategy",
+    "ChinaValue": ""
+  },
+  {
+    "key": "our-values",
+    "EnglishValue": "Our Values",
+    "ChinaValue": ""
+  },
+  {
+    "key": "iwut",
+    "EnglishValue": "Integrity: We uphold the highest standards of honesty and transparency in all our dealings.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "ewsf",
+    "EnglishValue": "Excellence: We strive for excellence in every aspect of our work, ensuring top-quality service delivery.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "rwtr",
+    "EnglishValue": "Responsibility: We take responsibility for our impact on the environment and society, and actively seek ways to contribute positively.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "strategic-goals",
+    "EnglishValue": "Strategic Goals",
+    "ChinaValue": ""
+  },
+  {
+    "key": "icaa",
+    "EnglishValue": "Innovation: Continuously adopt and integrate advanced technologies to enhance our service offerings and operational efficiency.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "sipt",
+    "EnglishValue": "Sustainability: Implement practices that ensure minimal environmental impact and promote long-term ecological balance.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "pfsp",
+    "EnglishValue": "Partnerships: Forge strong partnerships with key stakeholders in the energy sector to foster mutual growth and success.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "contact",
+    "EnglishValue": "Contact",
+    "ChinaValue": ""
+  },
+  {
+    "key": "suppliers",
+    "EnglishValue": "Suppliers",
+    "ChinaValue": ""
+  },
+  {
+    "key": "general-terms-and-conditions-of-use",
+    "EnglishValue": "General Terms and Conditions of Use",
+    "ChinaValue": ""
+  },
+  {
+    "key": "personal-data-charter-cookies-and-tracers",
+    "EnglishValue": "Personal data charter, cookies and tracers",
+    "ChinaValue": ""
+  },
+  {
+    "key": "accessibility-partially-compliant",
+    "EnglishValue": "Accessibility : partially compliant",
+    "ChinaValue": ""
+  },
+  {
+    "key": "sitemap",
+    "EnglishValue": "Sitemap",
+    "ChinaValue": ""
+  },
+  {
+    "key": "iwcd",
+    "EnglishValue": "Integrated well completion design capacity； Market main completion technology services supplier: Leading the upgraded completion technologies powered by full range of completion tools and perpetual innovation of intelligent completion tools； Global technical service team：Professional on-site technical service engineers and international project management staffs； Experienced in gas/carbon storage & intelligent completion services. Grand Qilin Oil provides full range of integrated and specialized completion solutions centered on completion tools, and focus on the gas & carbon storge, intelligent completion.",
+    "ChinaValue": ""
+  },
+  {
+    "key": "advantages",
+    "EnglishValue": "Advantages",
+    "ChinaValue": ""
+  },
+  {
+    "key": "service-scope",
+    "EnglishValue": "Service scope",
+    "ChinaValue": ""
+  },
+  {
+    "key": "complete-solutions-for-oil",
+    "EnglishValue": "Complete Solutions for Oil",
+    "ChinaValue": ""
+  },
+  {
+    "key": "and-gas-industry",
+    "EnglishValue": "Gas Industry",
+    "ChinaValue": ""
+  }
 ]
