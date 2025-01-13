@@ -1,8 +1,10 @@
 <template>
   <div>
     <div class="title-box">
-      <div class="title-text">Service scope</div>
-      <div class="title-sub">Complete Solutions for Oil & Gas Industry</div>
+      <div class="title-text">{{ $t('service-scope') }}</div>
+      <div class="title-sub">
+        {{ $t('complete-solutions-for-oil') }} & {{ $t('and-gas-industry') }}
+      </div>
     </div>
     <div class="grid grid-cols-4 gap-4 px-28">
       <ImgOverlay
