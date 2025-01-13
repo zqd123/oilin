@@ -2,7 +2,7 @@
   <div class="h-[70px] flex w-full flex-wrap items-center text-[#333333] text-[16px]">
     <div class="logo mr-10">
       <RouterLink :to="`/`">
-        <img src="@/assets/logo.png" alt="logo" class="h-[70px]" />
+        <img src="@/assets/logo.svg" alt="logo" class="h-[70px]" />
       </RouterLink>
     </div>
     <div class="menu flex gap-10">
