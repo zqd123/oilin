@@ -25,7 +25,7 @@
           v-else
           class="cursor-pointer text-[#333333] hover:text-[#1944B4] border-b-2 border-transparent hover:border-solid hover:border-blue-600 whitespace-nowrap"
         >
-          {{ menu.title }}
+          <RouterLink :to="menu.path">{{ menu.title }}</RouterLink>
         </div>
       </template>
     </div>

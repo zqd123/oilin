@@ -1,3 +1,4 @@
+import NProgress from './nprogress'
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
@@ -8,6 +9,10 @@ const router = createRouter({
     return { top: 0 }
   },
   routes: [
+    {
+      path: '/:pathMatch(.*)*',
+      redirect: '/developing',
+    },
     {
       path: '/',
       name: 'home',
@@ -70,5 +75,10 @@ const router = createRouter({
     },
   ],
 })
-
+router.beforeEach(() => {
+  NProgress.start()
+})
+router.afterEach(() => {
+  NProgress.done()
+})
 export default router

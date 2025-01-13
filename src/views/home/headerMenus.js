@@ -18,7 +18,7 @@ export const headerMenus = [
       },
       {
         title: i18n.global.t('our-partners'),
-        path: '/',
+        path: '/developing',
       },
     ],
   },
