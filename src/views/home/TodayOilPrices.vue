@@ -18,38 +18,59 @@
   </div>
 </template>
 <script setup>
-import i18n from '@/locales'
 import PricesValue from './PricesValue.vue'
 import { ref } from 'vue'
 import { useDateFormat, useNow } from '@vueuse/core'
+import axios from '@/http/axios'
 const formatted = useDateFormat(useNow(), 'YYYY-MM-DD')
 
-const todayOilPrices = ref([
-  {
-    name: '1',
-    price: 80.56,
-    arrow: 'up',
-    memo: i18n.global.t('brent'),
-    priceColor: '#1944B4',
-    arrowColor: '#FA5151',
-  },
-  {
-    name: '2',
-    price: 100.08,
-    arrow: 'down',
-    memo: i18n.global.t('opec-reference-basket'),
-    priceColor: '#B45B19',
-    arrowColor: '#3BB92D',
-  },
-  {
-    name: '3',
-    price: 90.25,
-    arrow: 'up',
-    memo: i18n.global.t('wtl'),
-    priceColor: '#19A3B4',
-    arrowColor: '#FA5151',
-  },
-])
+const priceColors = ['#1944B4', '#B45B19', '#19A3B4']
+
+const todayOilPrices = ref([])
+axios.get('/api/v1/petroleum/data').then((res) => {
+  todayOilPrices.value = mappingPrices(res.data.data)
+})
+
+function mappingPrices(data) {
+  const prices = []
+  data.forEach((item, index) => {
+    prices.push({
+      name: item.code,
+      price: item.value,
+      arrow: parseInt(item.changeAmount) > 0 ? 'up' : 'down',
+      memo: item.code,
+      priceColor: priceColors[index],
+      arrowColor: parseInt(item.changeAmount) > 0 ? '#FA5151' : '#3BB92D',
+    })
+  })
+  return prices
+}
+// const todayOilPrices = ref([
+//   {
+//     name: '1',
+//     price: 80.56,
+//     arrow: 'up',
+//     memo: i18n.global.t('brent'),
+//     priceColor: '#1944B4',
+//     arrowColor: '#FA5151',
+//   },
+//   {
+//     name: '2',
+//     price: 100.08,
+//     arrow: 'down',
+//     memo: i18n.global.t('opec-reference-basket'),
+//     priceColor: '#B45B19',
+//     arrowColor: '#3BB92D',
+//   },
+//   {
+//     name: '3',
+//     price: 90.25,
+//     arrow: 'up',
+//     memo: i18n.global.t('wtl'),
+//     priceColor: '#19A3B4',
+//     arrowColor: '#FA5151',
+//   },
+// ])
 </script>
 <style scoped>
 .today-box {
