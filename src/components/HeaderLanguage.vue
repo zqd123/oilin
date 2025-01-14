@@ -6,8 +6,8 @@
       </el-button>
       <template #dropdown>
         <el-dropdown-menu>
-          <el-dropdown-item @click="handleClick('English')">English</el-dropdown-item>
-          <el-dropdown-item @click="handleClick('中文')">中文</el-dropdown-item>
+          <el-dropdown-item @click="handleClick('en')">English</el-dropdown-item>
+          <el-dropdown-item @click="handleClick('zh')">中文</el-dropdown-item>
         </el-dropdown-menu>
       </template>
     </el-dropdown>
@@ -15,12 +15,17 @@
 </template>
 <script lang="ts" setup>
 import { ArrowDown } from '@element-plus/icons-vue'
-import { ref } from 'vue'
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+const { locale } = useI18n()
 
-const currentLanguage = ref('English')
+const currentLanguage = computed(() => {
+  return locale.value === 'en' ? 'English' : locale.value === 'zh' ? '中文' : ''
+})
 const handleClick = (v) => {
-  console.log('🚀 ~ handleClick ~ v:', v)
-  currentLanguage.value = v
+  locale.value = v
+  localStorage.setItem('lang', v)
+  location.reload()
 }
 </script>
 <style scoped>
