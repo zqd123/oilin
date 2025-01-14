@@ -45,8 +45,10 @@
   position: relative;
 }
 .content {
+  height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 20px;
   padding: 10px 5px 10px 120px;
   color: #ffffff;

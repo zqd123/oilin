@@ -23,7 +23,6 @@ const currentLanguage = computed(() => {
   return locale.value === 'en' ? 'English' : locale.value === 'zh' ? '中文' : ''
 })
 const handleClick = (v) => {
-  locale.value = v
   localStorage.setItem('lang', v)
   location.reload()
 }
