@@ -33,8 +33,8 @@ async function saveFile(filePath, obj) {
 }
 
 //  导出JSON文件
-const data = readJsonFileSync('../src/locales/en.json')
-saveFile('./output.json', formateJson(data))
+// const data = readJsonFileSync('../src/locales/en.json')
+// saveFile('./output.json', formateJson(data))
 
 function getExcelData(data) {
   console.log('🚀 ~ getExcelData ~ data:', typeof data)
@@ -46,5 +46,5 @@ function getExcelData(data) {
 }
 
 // 导入JSON
-// const excelData = readJsonFileSync('./output.json')
-// saveFile('./zh-CN.json', getExcelData(excelData))
+const excelData = readJsonFileSync('./output.json')
+saveFile('./zh-CN.json', getExcelData(excelData))

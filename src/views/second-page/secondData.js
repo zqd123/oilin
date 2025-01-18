@@ -118,7 +118,7 @@ export const secondData = {
       {
         index: 4,
         iconPath: stimulationIcon4,
-        textContent: i18n.global.t('lnct'),
+        textContent: i18n.global.t('ctaw'),
       },
       {
         index: 5,
@@ -253,7 +253,7 @@ export const secondData = {
       {
         index: 3,
         iconPath: assetsLeasingServicesIcon3,
-        textContent: i18n.global.t('poagf'),
+        textContent: i18n.global.t('wtso'),
       },
       {
         index: 4,
